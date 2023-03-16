@@ -1,0 +1,51 @@
+.d-flex {
+    display: flex;
+}
+
+.m-0-auto {
+    margin: 0 auto;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.button-1 {
+    outline: none !important;
+    border: none;
+    text-transform: uppercase;
+    background-color: #FFF;
+    color: #776c64;
+    font-weight: 900;
+    padding: 6px 36px;
+    border-radius: 24px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.show-more {
+    outline: none !important;
+    border: none;
+    font-weight: 700;
+    padding: 21px 99px;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    display: block;
+    letter-spacing: 4px;
+}
+
+.show-more-green-white {
+    background-color: #7f7770;
+    color: #FFF;
+}
+
+.show-more-orange-white {
+    background-color: #e2a355;
+    color: #FFF;
+}
