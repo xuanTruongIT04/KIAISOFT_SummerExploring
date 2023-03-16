@@ -65,6 +65,7 @@ header {
     .header-option-responsive {
         top: 160px;
     }
+
     #wrapper header .navbar-responsive {
         display: block;
     }
@@ -160,6 +161,7 @@ header {
     #wp-content .block-4 .sub-hiking {
         max-width: 100%;
     }
+
     #wp-content .block-4 .img-thumb-1 {
         bottom: -40px;
         left: 0;
@@ -196,7 +198,44 @@ header {
         max-width: 41%;
     }
 
-    
+    footer {
+        padding-top: 100px;
+        padding-bottom: 60px;
+        flex-wrap: wrap;
+        padding-left: 45px;
+    }
+
+    .footer-info {
+        margin-bottom: 25px;
+        margin-right: 12px;
+        flex-basis: 48%;
+        text-align: left;
+    }
+
+    footer .footer-info-body p {
+        font-size: 20px;
+    }
+
+
+    .footer-info-1 {
+        margin-left: 0;
+    }
+
+    footer .footer-info-body p {
+        padding-right: 32px;
+    }
+
+    .footer-info-2 {
+        margin-left: 0;
+    }
+
+    .footer-info-3 {
+        margin-left: 0;
+    }
+
+    .footer-info-4 {
+        margin-left: 0;
+    }
 }
 
 /*
@@ -495,17 +534,43 @@ header {
         padding-top: 100px;
         padding-bottom: 60px;
         flex-wrap: wrap;
-        padding-left: 30px;
+        padding-left: 45px;
     }
 
     .footer-info {
-        flex-basis: 34%;
         margin-bottom: 25px;
-        margin-right: 8px;
+        margin-right: 12px;
+
+        text-align: left;
     }
 
     footer .footer-info-body p {
         font-size: 20px;
+    }
+
+
+    .footer-info-1 {
+        margin-left: 0;
+        margin-right: 30px;
+        flex-basis: 46%;
+    }
+
+    footer .footer-info-body p {
+        padding-right: 32px;
+    }
+
+    .footer-info-2 {
+        margin-left: 0;
+    }
+
+    .footer-info-3 {
+        margin-right: 30px;
+
+        margin-left: 0;
+    }
+
+    .footer-info-4 {
+        margin-left: 0;
     }
 
 }
@@ -523,7 +588,7 @@ header {
         max-width: 242px;
         line-height: 52px;
     }
-    
+
     #wp-content .block-5 .img-thumb-1 {
         bottom: -18px;
     }
@@ -532,7 +597,28 @@ header {
         background-size: contain;
         height: 452px;
     }
-    
+
+
+    .footer-info-1 {
+        margin-left: 0;
+    }
+
+    footer .footer-info-body p {
+        padding-right: 32px;
+    }
+
+    .footer-info-2 {
+        margin-left: 0;
+    }
+
+    .footer-info-3 {
+        margin-left: 0;
+    }
+
+    .footer-info-4 {
+        margin-left: 0;
+    }
+
 }
 
 /* Medium decives (Tablets, width: 576px and down) */
@@ -574,6 +660,10 @@ header {
     #wp-content .block-1 h2 {
         font-size: 16px;
         margin-bottom: 25px;
+    }
+
+    footer .footer-info-body .list-socials {
+        justify-content: center;
     }
 
     .button-1 {
@@ -639,7 +729,7 @@ header {
     #wp-content .block-3 .sub-discount h2,
     #wp-content .block-33 .sub-promo h2 {
         font-size: 18px;
-        line-height: 40px;
+        line-height: 32px;
     }
 
     .block-3 .show-more,
@@ -810,15 +900,35 @@ header {
     }
 
     .footer-info {
-        flex-basis: 100%;
-        margin-bottom: 25px;
+        margin-bottom: 40px;
         margin-right: 8px;
+        flex-basis: 100%;
+        text-align: center;
     }
 
     footer .footer-info-body p {
         font-size: 20px;
     }
 
+    .footer-info-1 {
+        margin-left: 0;
+    }
+
+    footer .footer-info-body p {
+        padding-right: 32px;
+    }
+
+    .footer-info-2 {
+        margin-left: 0;
+    }
+
+    .footer-info-3 {
+        margin-left: 0;
+    }
+
+    .footer-info-4 {
+        margin-left: 0;
+    }
 }
 
 
@@ -855,8 +965,9 @@ header {
     }
 }
 
+
 @media(max-width: 320px) {
-    
+
     .header-option-responsive {
         top: 124px;
     }
@@ -870,12 +981,14 @@ header {
         line-height: 24px;
     }
 
-    #wp-content .block-3 .sub-discount h2, #wp-content .block-33 .sub-promo h2 {
+    #wp-content .block-3 .sub-discount h2,
+    #wp-content .block-33 .sub-promo h2 {
         font-size: 15px;
         line-height: 30px;
     }
 
-    .block-3 .show-more, .block-33 .show-more {
+    .block-3 .show-more,
+    .block-33 .show-more {
         padding: 5px 13px;
         font-size: 10px;
         letter-spacing: 0px;

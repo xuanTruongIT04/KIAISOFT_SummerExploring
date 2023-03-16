@@ -127,7 +127,7 @@ header .search i:hover {
 #wp-content .block-1 {
     background: url('../images/block-1-img.png');
     height: 960px;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     position: relative;
     padding-left: 95px;
