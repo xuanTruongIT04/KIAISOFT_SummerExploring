@@ -62,9 +62,12 @@ header {
 
 /* Large decives (Desktops, width: 992px and down) */
 @media(max-width: 1024px) {
+
+
     .header-option-responsive {
         top: 160px;
     }
+
     #wrapper header .navbar-responsive {
         display: block;
     }
@@ -73,8 +76,31 @@ header {
         display: none;
     }
 
+
+    #wp-content .block-1 {
+        height: 754px;
+        padding-top: 180px;
+    }
+
+    #wp-content .block-1 .sub-block-1 {
+        max-width: 444px;
+    }
+
+    #wp-content .block-1 h2 {
+        margin-bottom: 25px;
+    }
+
+    #wp-content .block-1 .block-1-title {
+        font-size: 70px;
+        line-height: 88px;
+    }
+
     #wp-content .block-2 li {
         margin-right: 24px;
+    }
+
+    #wp-content .block-2 h2 {
+        font-size: 57.5px;
     }
 
     #wp-content .block-2 li img {
@@ -160,6 +186,7 @@ header {
     #wp-content .block-4 .sub-hiking {
         max-width: 100%;
     }
+
     #wp-content .block-4 .img-thumb-1 {
         bottom: -40px;
         left: 0;
@@ -196,7 +223,44 @@ header {
         max-width: 41%;
     }
 
-    
+    footer {
+        padding-top: 100px;
+        padding-bottom: 60px;
+        flex-wrap: wrap;
+        padding-left: 85px;
+    }
+
+    .footer-info {
+        margin-bottom: 25px;
+        margin-right: 12px;
+        flex-basis: 48%;
+        text-align: left;
+    }
+
+    footer .footer-info-body p {
+        font-size: 20px;
+    }
+
+
+    .footer-info-1 {
+        margin-left: 0;
+    }
+
+    footer .footer-info-body p {
+        padding-right: 32px;
+    }
+
+    .footer-info-2 {
+        margin-left: 0;
+    }
+
+    .footer-info-3 {
+        margin-left: 0;
+    }
+
+    .footer-info-4 {
+        margin-left: 0;
+    }
 }
 
 /*
@@ -495,17 +559,44 @@ header {
         padding-top: 100px;
         padding-bottom: 60px;
         flex-wrap: wrap;
-        padding-left: 30px;
+        padding-left: 70px;
+
     }
 
     .footer-info {
-        flex-basis: 34%;
         margin-bottom: 25px;
-        margin-right: 8px;
+        margin-right: 12px;
+
+        text-align: left;
     }
 
     footer .footer-info-body p {
         font-size: 20px;
+    }
+
+
+    .footer-info-1 {
+        margin-left: 0;
+        margin-right: 15px;
+        flex-basis: 46%;
+    }
+
+    footer .footer-info-body p {
+        padding-right: 32px;
+    }
+
+    .footer-info-2 {
+        margin-left: 0;
+    }
+
+    .footer-info-3 {
+        margin-right: 15px;
+
+        margin-left: 0;
+    }
+
+    .footer-info-4 {
+        margin-left: 0;
     }
 
 }
@@ -523,7 +614,7 @@ header {
         max-width: 242px;
         line-height: 52px;
     }
-    
+
     #wp-content .block-5 .img-thumb-1 {
         bottom: -18px;
     }
@@ -532,7 +623,28 @@ header {
         background-size: contain;
         height: 452px;
     }
-    
+
+
+    .footer-info-1 {
+        margin-left: 0;
+    }
+
+    footer .footer-info-body p {
+        padding-right: 32px;
+    }
+
+    .footer-info-2 {
+        margin-left: 0;
+    }
+
+    .footer-info-3 {
+        margin-left: 0;
+    }
+
+    .footer-info-4 {
+        margin-left: 0;
+    }
+
 }
 
 /* Medium decives (Tablets, width: 576px and down) */
@@ -556,9 +668,9 @@ header {
     }
 
     #wp-content .block-1 {
-        height: 576px;
-        padding-left: 45px;
-        padding-top: 152px;
+        height: 292px;
+        padding-top: 58px;
+        padding-left: 17px;
     }
 
     #wp-content .block-1 p {
@@ -566,19 +678,25 @@ header {
     }
 
     #wp-content .block-1 .block-1-title {
-        font-size: 57px;
-        line-height: 75px;
-        max-width: 350px;
+        font-size: 36px;
+        line-height: 47px;
+        max-width: 230px;
     }
 
     #wp-content .block-1 h2 {
-        font-size: 16px;
-        margin-bottom: 25px;
+        font-size: 12px;
+        margin-bottom: 14px;
+        letter-spacing: 3px;
+
+    }
+
+    footer .footer-info-body .list-socials {
+        justify-content: center;
     }
 
     .button-1 {
-        padding: 10px 22px;
-        font-size: 14px;
+        padding: 4px 16px;
+        font-size: 12px;
     }
 
     #wp-content .block-1 .img-thumb-1 {
@@ -586,13 +704,15 @@ header {
     }
 
     #wp-content .block-2 h2 {
-        font-size: 44px;
+        font-size: 30px;
     }
 
     #wp-content .block-2 p.block-2-sub-title {
-        font-size: 20px;
+        font-size: 16px;
         max-width: 100%;
         margin-bottom: 40px;
+        padding-left: 12px;
+        padding-right: 12px;
     }
 
     #wp-content .block-2 .list-experiences {
@@ -623,6 +743,7 @@ header {
 
     #wp-content .block-2 {
         margin-bottom: 70px;
+        margin-top: 32px;
     }
 
     #wp-content .block-3 .sub-discount {
@@ -639,7 +760,7 @@ header {
     #wp-content .block-3 .sub-discount h2,
     #wp-content .block-33 .sub-promo h2 {
         font-size: 18px;
-        line-height: 40px;
+        line-height: 32px;
     }
 
     .block-3 .show-more,
@@ -771,11 +892,16 @@ header {
     }
 
     #wp-content .block-7 .contact h2 {
-        font-size: 54px;
+        font-size: 36px;
+    }
+
+    #wp-content .block-2 .show-more {
+        letter-spacing: 0px;
+        font-size: 16px;
     }
 
     #wp-content .block-7 .contact p {
-        font-size: 18.72px;
+        font-size: 16px;
         color: #54524f;
         margin-top: 21px;
         max-width: 356px;
@@ -810,21 +936,85 @@ header {
     }
 
     .footer-info {
-        flex-basis: 100%;
-        margin-bottom: 25px;
+        margin-bottom: 40px;
         margin-right: 8px;
+        flex-basis: 100%;
+        text-align: center;
     }
 
     footer .footer-info-body p {
         font-size: 20px;
     }
 
+    .footer-info-1 {
+        margin-left: 0;
+    }
+
+    footer .footer-info-body p {
+        padding-right: 32px;
+    }
+
+    .footer-info-2 {
+        margin-left: 0;
+    }
+
+    .footer-info-3 {
+        margin-left: 0;
+    }
+
+    .footer-info-4 {
+        margin-left: 0;
+    }
 }
 
+@media(max-width: 426px) {
+    #wp-content .block-1 {
+        height: 320px;
+    }
+
+
+    #wp-content .block-5 .img-thumb-1 {
+        bottom: 110px;
+    }
+
+    #wp-content .block-7 .contact p {
+        font-size: 18px;
+    }
+
+    #wp-content .block-7 .contact input {
+        font-size: 16px;
+    }
+
+}
 
 @media(max-width: 392px) {
     .header-option-responsive {
         top: 128px;
+    }
+
+    #wp-content .block-1 {
+        height: 252px;
+    }
+
+
+    #wp-content .block-1 .img-thumb-1 {
+        bottom: -36px;
+    }
+
+
+    #wp-content .block-2 p.block-2-sub-title {
+        font-size: 15px;
+    }
+
+
+    #wp-content .block-2 li .sub-exp h3 {
+        font-size: 24px;
+    }
+
+    #wp-content .block-2 li .sub-exp p {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 24px;
     }
 
     #wp-content .block-7 .contact p {
@@ -851,12 +1041,13 @@ header {
     }
 
     #wp-content .block-5 .img-thumb-1 {
-        bottom: 162px;
+        bottom: 140px;
     }
 }
 
+
 @media(max-width: 320px) {
-    
+
     .header-option-responsive {
         top: 124px;
     }
@@ -870,12 +1061,14 @@ header {
         line-height: 24px;
     }
 
-    #wp-content .block-3 .sub-discount h2, #wp-content .block-33 .sub-promo h2 {
+    #wp-content .block-3 .sub-discount h2,
+    #wp-content .block-33 .sub-promo h2 {
         font-size: 15px;
         line-height: 30px;
     }
 
-    .block-3 .show-more, .block-33 .show-more {
+    .block-3 .show-more,
+    .block-33 .show-more {
         padding: 5px 13px;
         font-size: 10px;
         letter-spacing: 0px;
@@ -888,5 +1081,42 @@ header {
 
     #wp-content .block-5 .img-thumb-1 {
         bottom: 206px;
+    }
+
+    #wp-content .block-1 {
+        height: 236px;
+        padding-top: 58px;
+        padding-left: 17px;
+    }
+
+    #wp-content .block-1 .img-thumb-1 {
+        bottom: -4px;
+    }
+
+    #wp-content .block-1 h2 {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .sub-block-1 {
+        max-width: 180px;
+    }
+
+    #wp-content .block-1 .block-1-title {
+        font-size: 26px;
+        line-height: 31px;
+        max-width: 160px;
+    }
+
+    #wp-content .block-2 h2 {
+        font-size: 24px;
+    }
+
+    #wp-content .block-2 p.block-2-sub-title {
+        font-size: 14px;
+    }
+
+    #wp-content .block-5 .img-thumb-1 {
+        bottom: 190px;
     }
 }
